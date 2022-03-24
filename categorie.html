@@ -41,9 +41,47 @@
             <li><a href="categorie.html">Categories</a></li>
             <li><a href="comment.html">Comment</a></li>
             <li><a href="users.html">User</a></li>
+            <li>
+               <nav> <!-- navbar content here  --> </nav>
+
+  <ul id="slide-out" class="sidenav">
+    <li><div class="user-view">
+      <div class="background">
+        <img src="images/office.jpg">
+      </div>
+      <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
+      <a href="#name"><span class="white-text name">John Doe</span></a>
+      <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+    </div></li>
+    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+    <li><a href="#!">Second Link</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="subheader">Subheader</a></li>
+    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+  </ul>
+ 
+            </li>
+            <a href="#" data-target="slide" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           </ul>
         </div>
       </nav>
+      <ul id="slide-out" class="sidenav">
+        <li>
+            <div class="user-view center" style="background: url(img/a1.jpg)center/cover no-repeat fixed;justify-content: center;">
+                
+                <a href="#"><img class="circle " src="Bilal.jpg" style="margin-left: 30%;"></a>
+                <a href="#"><span class="dark-text name">Beellal</span></a>
+                <a href="#"><span class="dark-text email">mahamanehabiboubilal999@gmail.com</span></a>
+            </div>
+        </li>
+        <li><a href="index.html"><i class="material-icons">dashboard</i>Dashboard</a></li>
+        <li><a href="posts.html">Posts</a></li>
+        <li><a href="categorie.html">Catégories</a></li>
+        <li><a href="comment.html">Comments</a></li>
+        <li><a href="users.html">Users</a></li>
+        <li><a href="#" class="disabled grey-text">Accounnt Controls</a></li>
+        <li><a href="index.html">Logout</a></li>
+    </ul>
     
       <ul class="sidenav" id="mobile-demo">
         <li><a href="index.html">Dashboard</a></li>
@@ -51,6 +89,7 @@
             <li><a href="categorie.html">Categories</a></li>
             <li><a href="comment.html">Comment</a></li>
             <li><a href="users.html">User</a></li>
+            <li><li> <button data-target="slide-out" class=" btn blue sidenav-trigger hide-on-large"><i class="fas fa-bars material-icons">menu</i></button></li></li>
       </ul>
 
       <div class="row" >
@@ -199,6 +238,13 @@
 
 
 </body>
+
+
+             <!-- Compiled and minified JavaScript -->
+             <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+             <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
 <script>
    document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.sidenav');
@@ -215,4 +261,5 @@ document.addEventListener('DOMContentLoaded', function() {
     var instances = M.Modal.init(elems);
   });
 </script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </html>

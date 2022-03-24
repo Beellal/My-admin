@@ -39,12 +39,31 @@
           <ul class="right hide-on-med-and-down" style="margin-right: 20%;">
             <li><a href="index.html">Dashboard</a></li>
             <li><a href="post.html">Post</a></li>
-            <li><a href="category.html">Categories</a></li>
+            <li><a href="categorie.html">Categories</a></li>
             <li><a href="comment.html">Comment</a></li>
             <li><a href="users.html">User</a></li>
+            <li><li> <button data-target="slide-out" class=" btn blue sidenav-trigger hide-on-large"><i class="fas fa-bars material-icons">menu</i></button></li></li>
           </ul>
         </div>
       </nav>
+      <ul id="slide-out" class="sidenav">
+        <li>
+            <div class="user-view center" style="background: url(img/a1.jpg)center/cover no-repeat fixed;justify-content: center;">
+                
+                <a href="#"><img class="circle " src="Bilal.jpg" style="margin-left: 30%;"></a>
+                <a href="#"><span class="dark-text name">Beellal</span></a>
+                <a href="#"><span class="dark-text email">mahamanehabiboubilal999@gmail.com</span></a>
+            </div>
+        </li>
+        <li><a href="index.html"><i class="material-icons">dashboard</i>Dashboard</a></li>
+        <li><a href="posts.html">Posts</a></li>
+        <li><a href="categorie.html">Catégories</a></li>
+        <li><a href="comment.html">Comments</a></li>
+        <li><a href="users.html">Users</a></li>
+        <li><a href="#" class="disabled grey-text">Accounnt Controls</a></li>
+        <li><a href="index.html">Logout</a></li>
+    </ul>
+
     
       <ul class="sidenav" id="mobile-demo">
         <li><a href="index.html">Dashboard</a></li>
@@ -310,7 +329,7 @@
       </div>
 
       
-      <div class="row" style="margin-top: 10% ;">
+      <div class="row" style="margin-top: 25% ;">
         <div class="page-footer blue" style="padding: 30px; position: absolute; width: 100%; right: 0;">
           <p class="center-align">MyAdmin CodeLOccol Copyright © 2019</p>
         </div>
@@ -324,6 +343,15 @@
 
 
 </body>
+
+
+
+             <!-- Compiled and minified JavaScript -->
+             <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+             <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
+            
 <script>
    document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.sidenav');
@@ -377,4 +405,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var instances = M.FormSelect.init(elems);
   });
 </script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </html>
